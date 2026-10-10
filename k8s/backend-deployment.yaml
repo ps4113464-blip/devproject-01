@@ -4,7 +4,7 @@ metadata:
   name: backend
   namespace: student-app
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: backend
